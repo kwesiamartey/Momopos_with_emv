@@ -258,6 +258,7 @@ public class USBPrinting extends AppCompatActivity {
             ex.printStackTrace();
         }
     }
+
     private ICommonCallback icallback = new ICommonCallback.Stub() {
         @Override
         public int CommonCallback(int code) throws RemoteException {
