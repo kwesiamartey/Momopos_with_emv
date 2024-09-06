@@ -399,7 +399,6 @@ public class TradeInfo {
     public static final int Type_loanLending = Base+101;//自助放款
     public static final int Type_loanRepayment = Base+102;//自助还款
 
-
     /**
      * 卡类型  -
      *
@@ -436,7 +435,7 @@ public class TradeInfo {
 
     //处理发卡行发起的参考
     REFER_APPROVE     = 0x01,      //参考返回码(选择批准) 接受交易
-            REFER_DENIAL      = 0x02;     //参考返回码(选择拒绝) 拒绝交易
+    REFER_DENIAL      = 0x02;     //参考返回码(选择拒绝) 拒绝交易
 
 
 
